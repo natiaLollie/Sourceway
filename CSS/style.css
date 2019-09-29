@@ -1,0 +1,36 @@
+
+.top-nav{
+  font-family: 'Overpass', sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.top-nav ul{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-flex;
+  float: right;
+  padding-top: 20px;
+  margin-right: 100px;
+}
+
+.top-nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  padding-right: 30px;
+
+}
+
+.brand{
+  margin-left: 100px;
+}
+
+hr{
+  border-top: 100px;
+  border-color: #C8C8C8;
+  border-width: 2px;
+  width: 90%;
+}
