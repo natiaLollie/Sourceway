@@ -53,6 +53,7 @@ width: 50%
 
 .one{
   background-color: #FE704A;
+  margin-left: 20px;
 }
 
 .two{
@@ -61,4 +62,12 @@ width: 50%
 
 .three{
   background-color: #FE704A;
+  margin-right: 20px;
+}
+
+.display-case label{
+  display: inline-flex;
+}
+.thumbnail img{
+ width: 10%;
 }

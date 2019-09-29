@@ -1,0 +1,92 @@
+.display-showcase{
+  width: 50%;
+  float: left;
+}
+
+.row{
+  display: inline-flex;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.column{
+  padding-right: 0;
+}
+
+.column img{
+  width: 80%;
+  height: auto;
+  border: 1.5px solid #C8C8C8;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.column img:hover{
+  opacity: 0.5;
+}
+
+.container img{
+  border: 1.5px solid #C8C8C8;
+  padding: 4px;
+  margin: 30px 20%;
+  /* top right bottom left */
+  width: 65%;
+}
+
+.product-showcase{
+  float: right;
+  width: 50%;
+}
+
+
+.product-description img{
+  width: 85%;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+
+.about-item{
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 1px;
+  margin-left: 60px;
+}
+
+.about-item h1, h3{
+  color: #666666;
+}
+
+#about-hr{
+  margin-left: 0px;
+  width: 30%;
+}
+
+.about-item p{
+  color: #6B6B6B;
+}
+
+.fixed-container{
+margin-top: 30px;
+}
+
+.about-item .fixed{
+  color: red;
+  font-family: 'arial', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.button{
+  background-color: #FF714B;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  width: 18%;
+}
